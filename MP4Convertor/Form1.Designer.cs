@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button3 = new System.Windows.Forms.Button();
             this.label_Title = new System.Windows.Forms.Label();
             this.filelist = new System.Windows.Forms.ListBox();
@@ -422,6 +423,7 @@
             this.Controls.Add(this.label_Title);
             this.Controls.Add(this.button3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "上";
