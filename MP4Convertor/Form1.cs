@@ -162,7 +162,6 @@ namespace MP4Convertor
                     }
                 }
                 bat.Close();
-                MessageBox.Show(TempBat.ToString());
                 textBox1.Text = "";
                 RealAction(TempBat);
                 filelist.Enabled = false;
