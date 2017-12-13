@@ -5,7 +5,10 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
-
+/// <summary>
+/// 2017-2-25 ver 0.1
+///           - 初步实现所有功能。
+/// </summary>
 namespace MP4Convertor
 {
     public partial class Form1 : Form
